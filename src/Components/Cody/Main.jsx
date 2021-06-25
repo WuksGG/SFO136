@@ -9,7 +9,8 @@ export default class Main extends Component {
       title: 'SFO136',
       testClass: 'one',
       x: 0,
-      y: 0
+      y: 0,
+      classHidden: 'classHidden'
     }
   }
   render() {
@@ -30,7 +31,11 @@ export default class Main extends Component {
               } else {
                 this.setState({testClass: 'one'});
               }
-          }}>{this.state.title}</div>
+          }}>{this.state.title}
+            <div className='bigWords' onClick={() => {
+              this.setState({})
+              }}>HR June 2021</div>
+          </div>
         </React.Fragment>
       )
   }

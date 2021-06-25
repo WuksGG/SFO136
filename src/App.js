@@ -1,20 +1,20 @@
 import './App.css';
 import Header from './Components/Header.jsx';
-import NavBar from './Components/navBarComp/navBar.jsx'
-import Main from './Components/Main.jsx';
-import Footer from './Components/Footer.jsx';
-import Spaghetti from './Components/Spaghetti.jsx';
-import Runner from './Components/Runner.jsx';
+import Juan from './Components/Juan/navBar.jsx'
+import Cody from './Components/Cody/Main.jsx';
+import Brian from './Components/Brian/Brian.jsx';
+import Soohyung from './Components/Soohyung/Spaghetti.jsx';
+import Runner from './Components/Cody/Runner.jsx';
 
 function App() {
   return (
     <div className="App">
-      <Header />
-      <NavBar />
-      <Main topic="SFO136"/>
-      <Runner />
-      <Footer />
-      <Spaghetti />
+      <Header /> {/* Header/NavBar */}
+      <Juan /> {/* Header/NavBar */}
+      <Cody topic="SFO136"/>
+      <Runner /> {/* Cody2 */}
+      <Brian />
+      <Soohyung />
     </div>
   );
 }
