@@ -14,6 +14,8 @@ export default class Footer extends Component {
           <li>Soo Kim</li>
           <li>Juan Mejia</li>
           <li>Brian Goodall</li>
+          <li>Shandira Ferguson</li>
+          <li>Diego Tobar</li>
         </ul>
       </span>
     )

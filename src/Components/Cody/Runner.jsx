@@ -23,7 +23,14 @@ export default class Runner extends Component {
           var yOffset = (Math.ceil(Math.random()) * 2 - 1) * Math.random() * 200;
         } while ((this.state.x - xOffset < 0) && (this.state.y - yOffset < 0))
         this.setState({x: xOffset, y: yOffset});
-      }}></div>
+      }}><div style={{
+        'position': 'relative',
+        'height': '10px',
+        'width': '10px',
+        'margin': '0 auto',
+        'marginTop': '10px',
+        'backgroundColor': 'white'
+      }}></div></div>
     )
   }
 }

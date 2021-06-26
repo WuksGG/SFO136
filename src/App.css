@@ -1,3 +1,26 @@
+@font-face {
+  font-family: 'Bebas Neue';
+  src: url('./fonts/BebasNeue-Regular.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Dela Gothic One';
+  src: url('./fonts/DelaGothicOne-Regular.ttf') format('truetype');
+}
+@keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+.contributor:hover {
+  color: #b1ffa7;
+}
+.contributor {
+  transition: 0.3s;
+}
+.row-1 {
+  display: flex;
+  justify-content: center;
+}
+
 .App {
   text-align: center;
 }
@@ -39,11 +62,23 @@
 .spaghetti{
   border:dotted;
   padding: 2px;
-  background-color:red;
+  background-color:rgb(177, 32, 32);
+}
+
+.meme{
+  background-color: rgb(255, 255, 255);
+}
+.catDance {
+
 }
 
 .test {
-  background-color: #282c34;
+  background-color: #353535;
+}
+
+.addBorders {
+  box-sizing: border-box;
+  border: 2px solid orange;
 }
 
 .baseSize {
@@ -61,7 +96,7 @@
   width: 200px;
   height: 200px;
   color: blue;
-  font-size: 2em;
+  font-size: 1em;
   background-color: red;
 }
 
@@ -69,20 +104,27 @@
   width: 200px;
   height: 200px;
   color: orange;
-  font-size: 2.5em;
+  font-size: 1.5em;
   background-color: blue;
 }
 .spaghettur{
-  width: 200px;
-  height: 200px;
+  width: 560px;
+  height: 315px;
 
 }
+
 .three {
   width: 200px;
   height: 200px;
   background-color: orange;
   color: red;
-  font-size: 3em;
+  font-size: 2em;
+}
+.classHidden {
+  display: none;
+}
+.classVisibile {
+  display: inline-block;
 }
 
 

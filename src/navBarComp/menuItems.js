@@ -33,6 +33,11 @@ const = [
     title: 'Brian Goodall'
     url: '#'
     cName: 'nav-Links'
+  },
+  {
+    title: 'Shandira Ferguson'
+    url: '#'
+    cName: 'nav-Links'
   }
 
 ]
