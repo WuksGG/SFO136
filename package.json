@@ -1,8 +1,8 @@
 {
   "name": "sfo136",
   "version": "0.1.0",
+  "homepage": "https://www.hrsf136.codes/",
   "private": true,
-  "homepage": "http://hrsf.136/reflections",
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^11.2.7",
